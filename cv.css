@@ -1,0 +1,118 @@
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+text-align: center;
+}
+h2{
+    margin-bottom: 0.2rem; 
+    font-weight: 200;
+}
+p1{
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20rem;
+    margin-left: 20rem;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+a{
+    color: rgb(45, 45, 212);
+}
+.pE{
+    margin-right: 16.5rem;
+    margin-left: 20rem;
+}
+main{
+    
+    margin-left: 4rem;
+}
+h5 {
+    margin-left: 2rem;
+    
+}
+p{
+    font-size: 0.8rem;
+}
+p2{
+    margin-left: 4rem; 
+    display: block;
+    padding: 0px;
+    margin-bottom: 12px;
+    font-size: 0.8rem;
+}
+h3{
+    font-size: 15px;
+    font-weight: 180;
+    padding: 0px;
+}
+ .one{
+    padding:0.5rem ;
+}
+label{
+    float: right;
+    font-weight: 100;
+    
+}
+@media screen and (max-width:768px){
+    h2{
+        margin-bottom: 0.2rem; 
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+    p1{
+        font-weight: 100;
+        font-size: 0.7rem;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        font-weight: 100;
+        font-size: 0.7rem;
+    }
+    a{
+        color: rgb(45, 45, 212);
+    }
+    .pE{
+        margin-right: 2.5rem;
+        margin-left: 3rem;
+    }
+
+    h5 {
+        margin-left: 1.2rem;
+        
+        font-size: 0.7rem;
+        
+    }
+    p{
+        font-size: 0.7rem;
+    }
+    p2{
+        margin-left: 4rem; 
+        display: block;
+        padding: 0px;
+        margin-bottom: 12px;
+        font-size: 0.7rem;
+    }
+    h3{
+        font-size: 15px;
+        font-weight: 100;
+        padding: 0px;
+    }
+     .one{
+        padding:0.5rem ;
+    }
+    label{
+        float: right;
+        font-weight: 100;
+        
+    }
+}
